@@ -22,10 +22,13 @@ requirements:
   run:
     - python
     - pandas
+    - pytest
 
 test:
   imports:
     - oommfodt
+  commands:
+    - python -c "import oommfodt; oommfodt.test()"
 
 about:
   home: http://joommf.github.io/
