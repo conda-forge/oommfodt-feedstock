@@ -1,6 +1,6 @@
-{% set version = "0.7.2" %}
+{% set version = "0.7.4" %}
 {% set name = "oommfodt" %}
-{% set sha256 = "4a578871c4ee2aa9fa6f77fd98c0afae566147d2d47be77ff15b46e379d7a8dd" %}
+{% set sha256 = "474bd04648bd806c914c033adf926e6b2f7f0cfc109faef42eb182aca6e135e0" %}
 
 package:
   name: {{ name | lower }}
@@ -48,7 +48,7 @@ about:
 extra:
   recipe-maintainers:
     - fangohr
-    - mb1a15
+    - marijanbeg
     - takluyver
     - davidcortesortuno
     - rpep
