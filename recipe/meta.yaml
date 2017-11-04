@@ -1,6 +1,6 @@
-{% set version = "0.7.4" %}
+{% set version = "0.7.6" %}
 {% set name = "oommfodt" %}
-{% set sha256 = "474bd04648bd806c914c033adf926e6b2f7f0cfc109faef42eb182aca6e135e0" %}
+{% set sha256 = "9f073c52936fa429677d23bcaa28345a5447324eab1024444b0042472301bda5" %}
 
 package:
   name: {{ name | lower }}
