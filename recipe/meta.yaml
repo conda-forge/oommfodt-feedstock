@@ -23,6 +23,9 @@ requirements:
     - python
     - pandas
     - pytest
+    - xlwt 
+    - xlrd 
+    - openpyxl
 
 test:
   imports:
