@@ -7,7 +7,7 @@ Package license: BSD 3-clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: Reading and analysing OOMMF odt files
+Summary: Reading and analysing OOMMF odt files.
 
 oommfodt provides tools to read Ooommf Data Table files (ODT)
 files.
