@@ -1,6 +1,6 @@
-{% set version = "0.8" %}
+{% set version = "0.8.2" %}
 {% set name = "oommfodt" %}
-{% set sha256 = "a8b8d636fe6e9396cfb8351fa0bea8fd49b23966b3c0edbda4fd448b428d726f" %}
+{% set sha256 = "f1fec4e80fdf8337df9e2485c18054743a7d2a1f531e6a1847c15fb7dee78cf6" %}
 
 package:
   name: {{ name | lower }}
@@ -12,20 +12,22 @@ source:
   sha256: {{ sha256 }}
 
 build:
+  skip: True  # [py2k]
   number: 0
   script: pip install --no-deps .
 
 requirements:
   build:
-    - python
+    - python >=3.5
     - pip
+
   run:
-    - python
+    - python >=3.5
     - pandas
-    - pytest
     - xlwt 
     - xlrd 
     - openpyxl
+    - pytest
 
 test:
   imports:
@@ -43,8 +45,8 @@ about:
   dev_url: https://github.com/joommf/oommfodt
 
   description: |
-    oommfodt provides tools to read Ooommf Data Table files (ODT)
-    files.
+    oommfodt provides tools to read and analyse OOMMF odt files.
+    
     It is part of the Jupyter-OOMMF project (https://github.com/joommf
     and http://joommf.github.io).
 
