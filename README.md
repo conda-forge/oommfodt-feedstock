@@ -18,14 +18,16 @@ and http://joommf.github.io).
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/oommfodt-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/oommfodt-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/oommfodt-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/oommfodt-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/oommfodt-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/oommfodt-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/oommfodt-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/oommfodt-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/oommfodt-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/oommfodt-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/oommfodt-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/oommfodt-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/oommfodt/badges/version.svg)](https://anaconda.org/conda-forge/oommfodt)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/oommfodt/badges/downloads.svg)](https://anaconda.org/conda-forge/oommfodt)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-oommfodt-green.svg)](https://anaconda.org/conda-forge/oommfodt) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/oommfodt.svg)](https://anaconda.org/conda-forge/oommfodt) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/oommfodt.svg)](https://anaconda.org/conda-forge/oommfodt) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/oommfodt.svg)](https://anaconda.org/conda-forge/oommfodt) |
 
 Installing oommfodt
 ===================
