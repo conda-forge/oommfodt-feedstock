@@ -44,8 +44,8 @@ about:
   dev_url: https://github.com/joommf/oommfodt
 
   description: |
-    oommfodt provides tools to read Ooommf Data Table files (ODT)
-    files.
+    oommfodt provides tools for reading and analysis of OOMMF odt files.
+
     It is part of the Jupyter-OOMMF project (https://github.com/joommf
     and http://joommf.github.io).
 
