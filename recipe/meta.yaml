@@ -12,6 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
+  skip: True  # [py27]
   number: 0
   script: pip install --no-deps .
 
@@ -19,13 +20,14 @@ requirements:
   build:
     - python
     - pip
+
   run:
     - python
     - pandas
-    - pytest
     - xlwt 
     - xlrd 
     - openpyxl
+    - pytest
 
 test:
   imports:
@@ -43,8 +45,8 @@ about:
   dev_url: https://github.com/joommf/oommfodt
 
   description: |
-    oommfodt provides tools to read Ooommf Data Table files (ODT)
-    files.
+    oommfodt provides tools to read and analyse OOMMF odt files.
+    
     It is part of the Jupyter-OOMMF project (https://github.com/joommf
     and http://joommf.github.io).
 
