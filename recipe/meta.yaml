@@ -1,6 +1,6 @@
-{% set version = "0.8" %}
+{% set version = "0.8.1" %}
 {% set name = "oommfodt" %}
-{% set sha256 = "a8b8d636fe6e9396cfb8351fa0bea8fd49b23966b3c0edbda4fd448b428d726f" %}
+{% set sha256 = "077f0de43cb25a282bb31cf851448f49af6b8aae430e58235592a8e94c49efd2" %}
 
 package:
   name: {{ name | lower }}
@@ -12,6 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
+  skip: true  # [py27]
   number: 0
   script: pip install --no-deps .
 
@@ -22,7 +23,6 @@ requirements:
   run:
     - python
     - pandas
-    - pytest
     - xlwt 
     - xlrd 
     - openpyxl
@@ -30,6 +30,7 @@ requirements:
 test:
   imports:
     - oommfodt
+
   commands:
     - python -c "import sys; import oommfodt as m; sys.exit(m.test())"
 
