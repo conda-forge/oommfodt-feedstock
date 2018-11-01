@@ -1,6 +1,6 @@
-{% set version = "0.8.2" %}
+{% set version = "0.8.3" %}
 {% set name = "oommfodt" %}
-{% set sha256 = "f1fec4e80fdf8337df9e2485c18054743a7d2a1f531e6a1847c15fb7dee78cf6" %}
+{% set sha256 = "55430fa1f773e51ae08fa4ef18ecfd282f27688d2b3091e80d8e85b35bcb46f7" %}
 
 package:
   name: {{ name | lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   skip: True  # [py27]
-  number: 1001
+  number: 1000
   script: pip install --no-deps .
 
 requirements:
