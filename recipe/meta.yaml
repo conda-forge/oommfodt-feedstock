@@ -48,8 +48,8 @@ about:
 
 extra:
   recipe-maintainers:
-    - fangohr
     - marijanbeg
+    - fangohr
     - takluyver
     - davidcortesortuno
     - rpep
