@@ -18,11 +18,12 @@ build:
 
 requirements:
   build:
-    - python
+    - python >= 3.6
     - pip
   run:
-    - python
+    - python >= 3.6
     - pandas
+    - numpy
     - pytest
 
 test:
@@ -36,12 +37,12 @@ about:
   license: BSD 3-clause
   license_family: BSD
   license_file: LICENSE
-  summary: Reading and analysing OOMMF odt files
+  summary: Reading and merging of OOMMF .odt files
   doc_url: http://oommfodt.readthedocs.io
   dev_url: https://github.com/joommf/oommfodt
 
   description: |
-    oommfodt provides tools for reading and analysis of OOMMF odt files.
+    oommfodt provides tools for reading and merging of OOMMF .odt files.
 
     It is part of the Jupyter-OOMMF project (https://github.com/joommf
     and http://joommf.github.io).
@@ -49,6 +50,7 @@ about:
 extra:
   recipe-maintainers:
     - marijanbeg
+    - sergii-mamedov
     - fangohr
     - takluyver
     - rpep
