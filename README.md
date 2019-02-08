@@ -11,9 +11,9 @@ Package license: BSD 3-clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: Reading and analysing OOMMF odt files
+Summary: Reading and merging of OOMMF .odt files
 
-oommfodt provides tools for reading and analysis of OOMMF odt files.
+oommfodt provides tools for reading and merging of OOMMF .odt files.
 
 It is part of the Jupyter-OOMMF project (https://github.com/joommf
 and http://joommf.github.io).
@@ -122,5 +122,6 @@ Feedstock Maintainers
 * [@fangohr](https://github.com/fangohr/)
 * [@marijanbeg](https://github.com/marijanbeg/)
 * [@rpep](https://github.com/rpep/)
+* [@sergii-mamedov](https://github.com/sergii-mamedov/)
 * [@takluyver](https://github.com/takluyver/)
 
