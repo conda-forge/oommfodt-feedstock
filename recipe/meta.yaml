@@ -12,16 +12,16 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  skip: True  # [py27]
-  number: 0
+  noarch: python
+  number: 1
   script: pip install --no-deps .
 
 requirements:
   build:
-    - python
+    - python >=3.6
     - pip
   run:
-    - python
+    - python >=3.6
     - pandas
     - numpy
     - pytest
